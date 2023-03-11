@@ -1,0 +1,58 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+.list {
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  display: inline;
+  text-align: center;
+  margin: 20px;
+  padding: 30px;
+}
+
+.list li {
+  display: inline;
+  margin: 20px;
+  align-items: center;
+  padding: 30px;
+  text-align: center;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+}
+
+.contattaci {
+  margin: 20px;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    position: relative;
+    height: auto;
+    text-align: center;
+  }
+  .list {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    width: 90%;
+    text-align: center;
+  }
+
+  .list li {
+    padding: 0px;
+  }
+}

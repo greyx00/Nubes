@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(213, 186, 152);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  overflow-x: hidden;
+}
+
+.logohome {
+  position: absolute;
+  top: 100px;
+  left: 10px;
+}
+
+.logohome img {
+  text-align: center;
+  width: 45%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.presentation {
+  position: absolute;
+  top: 200px;
+  left: 600px;
+  margin-right: 60px;
+  font-size: 25px;
+}

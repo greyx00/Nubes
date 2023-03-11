@@ -1,0 +1,133 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(213, 186, 152);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.shop-box {
+  text-align: center;
+  background: white;
+  opacity: 1;
+  padding: 60px 100px 100px 100px;
+  justify-content: center;
+  font-size: 14px;
+  border-radius: 15px;
+  border-color: black;
+  border-style: solid;
+}
+
+.group {
+  display: flex;
+
+  margin-bottom: 20px;
+  flex-direction: column;
+  width: 100%;
+  font-weight: bold;
+}
+
+.btt {
+  margin-top: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+  outline: none;
+  background: black;
+  color: #fff;
+  padding: 16px;
+  display: block;
+  border: none;
+  font-size: 16px;
+  width: 200px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+  float: right;
+}
+
+#add {
+  margin-top: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+  outline: none;
+  background: #ffa500;
+  color: #fff;
+  padding: 16px;
+  display: block;
+  border: none;
+  font-size: 16px;
+  width: 200px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+  float: right;
+}
+
+button:hover {
+  box-shadow: 5px 5px 5px gray;
+}
+
+.card-title {
+  padding-bottom: 10px;
+  color: black;
+  font-size: 35px;
+}
+
+.rating {
+  padding-bottom: 10px;
+}
+
+.card-text {
+  padding-bottom: 10px;
+  color: black;
+  font-size: 20px;
+}
+.price {
+  color: black;
+  font-size: 25px;
+}
+
+.view {
+  width: 100%;
+  height: 100%;
+}
+
+.box {
+  text-align: center;
+}
+
+.search {
+  outline: none;
+  background: black;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  width: 75px;
+  height: 55px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 20px;
+}
+
+.search:hover {
+  box-shadow: 5px 5px 5px gray;
+}
+
+.boxsearch {
+  font-size: 20px;
+  outline: none;
+  border: none;
+  padding: 16px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  margin: 10px;
+}
